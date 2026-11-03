@@ -1,0 +1,4299 @@
+{
+ "library": "ganjuko-asset-library",
+ "version": 1,
+ "style": "ganjuko-pixel-v1",
+ "tileSize": 48,
+ "assets": [
+  {
+   "id": "tree_round",
+   "name": "Tree \u2014 Round Canopy",
+   "category": "vegetation",
+   "theme": "shared",
+   "biome": "commons",
+   "blurb": "Round-canopy tree; canonical shared tree for every biome.",
+   "footprint": {
+    "w": 2,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall tree with a big round lush green canopy and a short brown trunk, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "tree_pine",
+   "name": "Tree \u2014 Pine",
+   "category": "vegetation",
+   "theme": "shared",
+   "biome": "commons",
+   "blurb": "Layered pine; canonical shared conifer.",
+   "footprint": {
+    "w": 2,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a very tall narrow pine tree with layered dark green needles and a straight brown trunk, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "hedge",
+   "name": "Hedge",
+   "category": "vegetation",
+   "theme": "shared",
+   "biome": "commons",
+   "blurb": "Trimmed square hedge block.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a neatly trimmed square dark green hedge block, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "hedge_end",
+   "name": "Hedge \u2014 End",
+   "category": "vegetation",
+   "theme": "shared",
+   "biome": "commons",
+   "blurb": "Hedge piece with one rounded end.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a neatly trimmed hedge piece with one rounded end, dark green, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "potted_plant",
+   "name": "Potted Plant",
+   "category": "prop",
+   "theme": "shared",
+   "biome": "commons",
+   "blurb": "Terracotta pot with a leafy plant.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a small terracotta flower pot with a leafy green plant, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "crates_barrels",
+   "name": "Crates and Barrels",
+   "category": "prop",
+   "theme": "shared",
+   "biome": "commons",
+   "blurb": "Cluster of wooden crates and barrels.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low cluster of wooden crates and round wooden barrels, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "barrel",
+   "name": "Barrel",
+   "category": "prop",
+   "theme": "shared",
+   "biome": "commons",
+   "blurb": "Single wooden barrel.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a single round wooden barrel with metal bands, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "rock_small",
+   "name": "Rock \u2014 Small",
+   "category": "prop",
+   "theme": "shared",
+   "biome": "commons",
+   "blurb": "Small grey boulder.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a small grey rounded boulder rock with subtle moss, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "rock_cluster",
+   "name": "Rocks \u2014 Cluster",
+   "category": "prop",
+   "theme": "shared",
+   "biome": "commons",
+   "blurb": "Cluster of grey rocks.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low cluster of grey rocks and small boulders with subtle moss, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "grass_tuft",
+   "name": "Grass Tuft",
+   "category": "vegetation",
+   "theme": "shared",
+   "biome": "commons",
+   "blurb": "Tall grass tuft; walkable, bush flag.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": true,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "bush"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a flat tuft of tall green grass blades, seen mostly from above, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "wildflowers",
+   "name": "Wildflowers",
+   "category": "vegetation",
+   "theme": "shared",
+   "biome": "commons",
+   "blurb": "Patch of small wildflowers; walkable, bush flag.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": true,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "bush"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a flat patch of small colorful wildflowers and grass, seen mostly from above, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "house_red_roof",
+   "name": "House \u2014 Red Roof",
+   "category": "building",
+   "theme": "residential",
+   "biome": "city",
+   "blurb": "Two-story house front, red tile roof, cream walls.",
+   "footprint": {
+    "w": 3,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide two-story house front with a red tiled roof, cream plaster walls, a wooden front door and two windows with flower boxes, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "house_blue_roof",
+   "name": "House \u2014 Blue Roof",
+   "category": "building",
+   "theme": "residential",
+   "biome": "city",
+   "blurb": "Two-story house front, blue slate roof, white walls.",
+   "footprint": {
+    "w": 3,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide two-story house front with a blue slate roof, white walls, a round attic window, a wooden door and two windows, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "cottage_green_roof",
+   "name": "Cottage \u2014 Green Roof",
+   "category": "building",
+   "theme": "residential",
+   "biome": "city",
+   "blurb": "Small cottage, mossy green roof, stone base.",
+   "footprint": {
+    "w": 2,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall narrow small cottage front with a green mossy roof, a stone lower wall, a wooden door and one small window, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "shop_front",
+   "name": "Shop Front",
+   "category": "building",
+   "theme": "commercial",
+   "biome": "city",
+   "blurb": "Shop front with striped awning and a blank sign board (text-free; lettering added in-engine). Front row is a counter.",
+   "footprint": {
+    "w": 3,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": true,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "counter",
+     "counter",
+     "counter"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide two-story shop front with a striped red-and-white awning over the storefront window and a large completely blank wooden sign board above the door, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "townhouse_brick",
+   "name": "Townhouse \u2014 Brick",
+   "category": "building",
+   "theme": "residential",
+   "biome": "city",
+   "blurb": "Tall brick townhouse with chimney.",
+   "footprint": {
+    "w": 3,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide tall brick townhouse front with a dark grey roof, a chimney, a wooden door and three windows, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "fountain",
+   "name": "Fountain",
+   "category": "prop",
+   "theme": "civic",
+   "biome": "city",
+   "blurb": "Round stone fountain with water basin.",
+   "footprint": {
+    "w": 3,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block",
+     "block"
+    ],
+    [
+     "block",
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide round stone fountain basin filled with blue water and a small central stone pillar, seen from the front with a slight top-down view, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "statue_hero",
+   "name": "Statue \u2014 Hero",
+   "category": "prop",
+   "theme": "civic",
+   "biome": "city",
+   "blurb": "Stone hero statue on a pedestal.",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a grey stone statue of a heroic knight holding a sword, standing on a stone pedestal, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "well",
+   "name": "Well",
+   "category": "prop",
+   "theme": "civic",
+   "biome": "city",
+   "blurb": "Stone well with tiny roof; front edge is a counter.",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": true,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "counter",
+     "counter"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a round stone wishing well with a tiny wooden roof on two posts and a small hanging bucket, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "market_stall",
+   "name": "Market Stall",
+   "category": "prop",
+   "theme": "commercial",
+   "biome": "city",
+   "blurb": "Wooden stall with striped canopy; front is a counter for trading.",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": true,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "counter",
+     "counter"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low wooden market stall with a striped canopy roof and wooden crates of colorful fruit on its counter, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "city_gate_arch",
+   "name": "City Gate Arch",
+   "category": "building",
+   "theme": "civic",
+   "biome": "city",
+   "blurb": "Stone welcome arch; walk through the middle cell.",
+   "footprint": {
+    "w": 3,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "pass",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide stone city gate archway with an open passage in the middle and a plain blank banner hanging from the top beam, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "flower_planter",
+   "name": "Flower Planter",
+   "category": "vegetation",
+   "theme": "street-props",
+   "biome": "city",
+   "blurb": "Long planter box full of flowers.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low long wooden planter box overflowing with colorful flowers and green leaves, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "flower_bed",
+   "name": "Flower Bed",
+   "category": "vegetation",
+   "theme": "street-props",
+   "biome": "city",
+   "blurb": "Low flower bed; walkable, bush flag (feet hidden).",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": true,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "bush",
+     "bush"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low flat flower bed strip of soil covered in small colorful flowers, seen mostly from above, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "street_lamp",
+   "name": "Street Lamp",
+   "category": "prop",
+   "theme": "street-props",
+   "biome": "city",
+   "blurb": "Classic lamp post, warm lantern.",
+   "footprint": {
+    "w": 1,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star"
+    ],
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall narrow classic black street lamp post with a warm glowing yellow lantern at the top, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "bench",
+   "name": "Bench",
+   "category": "prop",
+   "theme": "street-props",
+   "biome": "city",
+   "blurb": "Wooden park bench.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low wooden park bench with black iron armrests and legs, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "mailbox",
+   "name": "Mailbox",
+   "category": "prop",
+   "theme": "street-props",
+   "biome": "city",
+   "blurb": "Red mailbox on a post.",
+   "footprint": {
+    "w": 1,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star"
+    ],
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall narrow red mailbox on top of a wooden post, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "banner_pole",
+   "name": "Banner Pole",
+   "category": "signage",
+   "theme": "street-props",
+   "biome": "city",
+   "blurb": "Tall pole with a plain blank banner (no text/emblem).",
+   "footprint": {
+    "w": 1,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star"
+    ],
+    [
+     "star"
+    ],
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a very tall thin wooden pole with a plain solid teal banner flag hanging from a crossbar near the top, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "signpost",
+   "name": "Signpost",
+   "category": "signage",
+   "theme": "street-props",
+   "biome": "city",
+   "blurb": "Wooden signpost with two blank arrow boards.",
+   "footprint": {
+    "w": 1,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star"
+    ],
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall narrow wooden signpost with two completely blank arrow-shaped wooden boards pointing left and right, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "hanging_sign",
+   "name": "Hanging Sign",
+   "category": "signage",
+   "theme": "commercial",
+   "biome": "city",
+   "blurb": "Blank hanging shop sign on an iron bracket; star tile, overlays a wall.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "star",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a completely blank rectangular wooden hanging shop sign suspended by chains from a black iron bracket, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "awning_strip",
+   "name": "Awning Strip",
+   "category": "decor",
+   "theme": "commercial",
+   "biome": "city",
+   "blurb": "Striped awning extension; star tile add-on for shop fronts.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "star",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low striped blue-and-white shop awning canopy strip, seen from the front, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "balcony",
+   "name": "Balcony",
+   "category": "decor",
+   "theme": "residential",
+   "biome": "city",
+   "blurb": "Balcony with railing and flower boxes; star tile wall add-on.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "star",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low small balcony with a black iron railing and flower boxes, a building wall add-on piece, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "window_box",
+   "name": "Window + Flower Box",
+   "category": "decor",
+   "theme": "residential",
+   "biome": "city",
+   "blurb": "Window with flower box; star tile wall add-on.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "star",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a single window with a wooden frame and a flower box full of colorful flowers below it, a flat building wall add-on piece, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "bicycle_rack",
+   "name": "Bicycle Rack",
+   "category": "prop",
+   "theme": "street-props",
+   "biome": "city",
+   "blurb": "Metal rack with one bicycle.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low metal bicycle rack holding one simple bicycle, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "bollard",
+   "name": "Bollard",
+   "category": "prop",
+   "theme": "street-props",
+   "biome": "city",
+   "blurb": "Short stone bollard.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a short stone bollard post with a rounded top, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "manhole",
+   "name": "Manhole Cover",
+   "category": "ground",
+   "theme": "street-props",
+   "biome": "city",
+   "blurb": "Flat iron manhole cover; walkable ground detail (B-layer).",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "pass",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "pass"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a round dark iron manhole cover with a simple pattern, completely flat, seen from directly above, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "puddle",
+   "name": "Puddle",
+   "category": "ground",
+   "theme": "street-props",
+   "biome": "city",
+   "blurb": "Flat puddle; walkable ground detail (B-layer).",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "pass",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "pass"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a small flat blue puddle of water with a lighter reflection, seen from directly above, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "house_pink_roof",
+   "name": "House \u2014 Pink Roof",
+   "category": "building",
+   "theme": "residential",
+   "biome": "city",
+   "blurb": "Two-story house front, soft pink roof, mint walls.",
+   "footprint": {
+    "w": 3,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide two-story house front with a soft pink tiled roof, pale mint walls, a wooden door and two windows, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "apartment_block",
+   "name": "Apartment Block",
+   "category": "building",
+   "theme": "residential",
+   "biome": "city",
+   "blurb": "Wide three-story apartment front with many windows and a shared door.",
+   "footprint": {
+    "w": 3,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide tall three-story apartment building front with a flat dark roof, many windows, small balconies and a shared entrance door, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "cafe_front",
+   "name": "Cafe Front",
+   "category": "building",
+   "theme": "commercial",
+   "biome": "city",
+   "blurb": "Cafe front with big windows and awning; front row is a counter.",
+   "footprint": {
+    "w": 3,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": true,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "counter",
+     "counter",
+     "counter"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide two-story cafe front with large glass windows, a green awning, a wooden door and a completely blank sign board, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "bakery_front",
+   "name": "Bakery Front",
+   "category": "building",
+   "theme": "commercial",
+   "biome": "city",
+   "blurb": "Bakery front with display window of bread (no text); front row is a counter.",
+   "footprint": {
+    "w": 3,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": true,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "counter",
+     "counter",
+     "counter"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide two-story bakery front with a big display window showing loaves of bread, a striped orange awning and a completely blank sign board, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "inn_front",
+   "name": "Inn Front",
+   "category": "building",
+   "theme": "commercial",
+   "biome": "city",
+   "blurb": "Cozy inn front with lantern by the door.",
+   "footprint": {
+    "w": 3,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide tall cozy inn building front with a brown shingled roof, warm glowing windows, a lantern beside the wooden door and a completely blank hanging sign, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "storefront_wide",
+   "name": "Storefront \u2014 Wide",
+   "category": "building",
+   "theme": "commercial",
+   "biome": "city",
+   "blurb": "Wide general-store front with porch; front row is a counter.",
+   "footprint": {
+    "w": 3,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": true,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "counter",
+     "counter",
+     "counter"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide two-story general store front with a covered wooden porch, big storefront windows full of jars and boxes, and a completely blank sign board, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "town_hall",
+   "name": "Town Hall",
+   "category": "building",
+   "theme": "civic",
+   "biome": "city",
+   "blurb": "Grand civic hall with columns and steps.",
+   "footprint": {
+    "w": 3,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide grand town hall building front with white columns, a triangular pediment, stone steps and double doors, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "clock_tower",
+   "name": "Clock Tower",
+   "category": "building",
+   "theme": "civic",
+   "biome": "city",
+   "blurb": "Narrow clock tower with a round clock face (no numbers text, simple hands).",
+   "footprint": {
+    "w": 2,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall narrow stone clock tower with a round clock face near the top, a small arched window and a wooden door at the base, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "notice_board",
+   "name": "Notice Board",
+   "category": "signage",
+   "theme": "civic",
+   "biome": "city",
+   "blurb": "Wooden community notice board with blank paper notes (no text).",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide wooden community notice board on two posts with a small roof and several completely blank paper notes pinned to it, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "park_gate",
+   "name": "Park Gate",
+   "category": "building",
+   "theme": "civic",
+   "biome": "city",
+   "blurb": "Small park entrance gate; walk through the right cell.",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "pass"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low park entrance gate with two stone posts, an iron fence top and an open gap on the right side, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "clothesline",
+   "name": "Clothesline",
+   "category": "prop",
+   "theme": "residential",
+   "biome": "city",
+   "blurb": "Clothesline with colorful laundry between two posts.",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide clothesline strung between two wooden posts with colorful shirts and sheets hanging from it, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "garden_fence",
+   "name": "Garden Fence",
+   "category": "prop",
+   "theme": "residential",
+   "biome": "city",
+   "blurb": "White picket garden fence segment.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low white picket garden fence segment with small flowers growing at its base, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "dog_house",
+   "name": "Dog House",
+   "category": "prop",
+   "theme": "residential",
+   "biome": "city",
+   "blurb": "Small wooden dog house with a round entrance.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a small wooden dog house with a pitched roof and a round dark entrance, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "chimney",
+   "name": "Chimney",
+   "category": "decor",
+   "theme": "residential",
+   "biome": "city",
+   "blurb": "Brick chimney with a wisp of smoke; star tile rooftop add-on.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "star",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a single brick chimney with a clay pot and a small wisp of white smoke, a rooftop add-on piece, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "menu_board",
+   "name": "Menu Board",
+   "category": "signage",
+   "theme": "commercial",
+   "biome": "city",
+   "blurb": "A-frame sidewalk board, completely blank (text added in-engine).",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a small wooden A-frame sidewalk sign board, completely blank, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "hydrant",
+   "name": "Fire Hydrant",
+   "category": "prop",
+   "theme": "street-props",
+   "biome": "city",
+   "blurb": "Red fire hydrant.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a small red fire hydrant with silver caps, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "trash_bin",
+   "name": "Trash Bin",
+   "category": "prop",
+   "theme": "street-props",
+   "biome": "city",
+   "blurb": "Green metal park trash bin.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a green metal park trash bin with vertical slats, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "lamp_double",
+   "name": "Street Lamp \u2014 Double",
+   "category": "prop",
+   "theme": "street-props",
+   "biome": "city",
+   "blurb": "Lamp post with two lanterns.",
+   "footprint": {
+    "w": 1,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star"
+    ],
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall narrow elegant black street lamp post with two warm glowing lanterns on curved arms, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "street_sign_blank",
+   "name": "Street Sign",
+   "category": "signage",
+   "theme": "street-props",
+   "biome": "city",
+   "blurb": "Pole with two completely blank street name plates.",
+   "footprint": {
+    "w": 1,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star"
+    ],
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall narrow metal pole with two completely blank rectangular street sign plates at the top, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "flower_arch",
+   "name": "Flower Arch",
+   "category": "decor",
+   "theme": "civic",
+   "biome": "city",
+   "blurb": "Garden arch covered in flowering vines; posts block, top is star.",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide garden arch trellis covered in green vines and pink flowers, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "tree_cluster",
+   "name": "Tree Cluster",
+   "category": "vegetation",
+   "theme": "trees",
+   "biome": "forest",
+   "blurb": "Dense cluster of overlapping canopies \u2014 instant forest edge.",
+   "footprint": {
+    "w": 3,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide dense cluster of overlapping lush green tree canopies with several trunks, forming a thick forest edge, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "tree_oak_old",
+   "name": "Tree \u2014 Old Oak",
+   "category": "vegetation",
+   "theme": "trees",
+   "biome": "forest",
+   "blurb": "Gnarled old oak with wide canopy.",
+   "footprint": {
+    "w": 2,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall gnarled old oak tree with a thick twisted trunk and a wide spreading green canopy, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "tree_birch",
+   "name": "Tree \u2014 Birch",
+   "category": "vegetation",
+   "theme": "trees",
+   "biome": "forest",
+   "blurb": "Slim white-bark birch with light green leaves.",
+   "footprint": {
+    "w": 2,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall slim birch tree with a white bark trunk and light green leaves, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "canopy_top",
+   "name": "Canopy \u2014 Overhead",
+   "category": "vegetation",
+   "theme": "trees",
+   "biome": "forest",
+   "blurb": "Pure overhead canopy; star tiles that hang over paths.",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "star",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a flat overhead patch of dense green tree canopy foliage seen from below, filling the whole frame, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "canopy_arch",
+   "name": "Canopy \u2014 Arch",
+   "category": "vegetation",
+   "theme": "trees",
+   "biome": "forest",
+   "blurb": "Wide overhead canopy band for forest path tunnels.",
+   "footprint": {
+    "w": 3,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "star",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star",
+     "star"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide flat overhead band of dense green tree canopy foliage with a few hanging vines, seen from below, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "owl_tree",
+   "name": "Tree \u2014 Owl Hollow",
+   "category": "vegetation",
+   "theme": "trees",
+   "biome": "forest",
+   "blurb": "Tree with a hollow and a tiny owl.",
+   "footprint": {
+    "w": 2,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall tree with a round hollow in its trunk where a tiny owl sits, and a full green canopy, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "pine_young",
+   "name": "Pine \u2014 Young",
+   "category": "vegetation",
+   "theme": "trees",
+   "biome": "forest",
+   "blurb": "Young slim pine.",
+   "footprint": {
+    "w": 1,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star"
+    ],
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall narrow young pine tree with sparse dark green needles, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "sapling",
+   "name": "Sapling",
+   "category": "vegetation",
+   "theme": "undergrowth",
+   "biome": "forest",
+   "blurb": "Tiny sapling; walkable, bush flag.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": true,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "bush"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tiny young tree sapling with a few green leaves, seen from a slight top-down view, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "fallen_log",
+   "name": "Fallen Log",
+   "category": "prop",
+   "theme": "woodland",
+   "biome": "forest",
+   "blurb": "Mossy fallen log.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low fallen tree log covered in green moss with a few small mushrooms, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "log_hollow",
+   "name": "Hollow Log",
+   "category": "prop",
+   "theme": "woodland",
+   "biome": "forest",
+   "blurb": "Hollow log tunnel piece.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low hollow fallen log with a dark round opening facing the viewer, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "stump",
+   "name": "Stump",
+   "category": "prop",
+   "theme": "woodland",
+   "biome": "forest",
+   "blurb": "Cut tree stump with rings.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a cut tree stump with visible growth rings and a few roots, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "stump_wide",
+   "name": "Stump \u2014 Wide",
+   "category": "prop",
+   "theme": "woodland",
+   "biome": "forest",
+   "blurb": "Wide flat stump, table-like.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low flat-topped tree stump with growth rings, like a natural table, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "wood_pile",
+   "name": "Wood Pile",
+   "category": "prop",
+   "theme": "woodland",
+   "biome": "forest",
+   "blurb": "Stacked firewood logs.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low neat stack of chopped firewood logs, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "log_bench",
+   "name": "Log Bench",
+   "category": "prop",
+   "theme": "woodland",
+   "biome": "forest",
+   "blurb": "Bench made from a halved log.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low rustic bench made from a halved log on two stump legs, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "mushroom_ring",
+   "name": "Mushroom Ring",
+   "category": "vegetation",
+   "theme": "undergrowth",
+   "biome": "forest",
+   "blurb": "Fairy ring of mushrooms; walkable, bush flag.",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": true,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "bush",
+     "bush"
+    ],
+    [
+     "bush",
+     "bush"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a flat ring of small red-capped mushrooms on grass, seen mostly from above, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "mushroom_cluster",
+   "name": "Mushroom Cluster",
+   "category": "vegetation",
+   "theme": "undergrowth",
+   "biome": "forest",
+   "blurb": "Cluster of toadstools; walkable, bush flag.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": true,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "bush"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a small cluster of red and brown toadstool mushrooms with grass, seen from a slight top-down view, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "fern",
+   "name": "Fern",
+   "category": "vegetation",
+   "theme": "undergrowth",
+   "biome": "forest",
+   "blurb": "Fern clump; walkable, bush flag.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": true,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "bush"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a lush green fern plant clump, seen from a slight top-down view, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "fern_large",
+   "name": "Fern \u2014 Large",
+   "category": "vegetation",
+   "theme": "undergrowth",
+   "biome": "forest",
+   "blurb": "Wide fern patch; walkable, bush flag.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": true,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "bush",
+     "bush"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low patch of lush green ferns, seen from a slight top-down view, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "berry_bush",
+   "name": "Berry Bush",
+   "category": "vegetation",
+   "theme": "undergrowth",
+   "biome": "forest",
+   "blurb": "Bush dotted with red berries.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a round green bush dotted with small red berries, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "leaf_pile",
+   "name": "Leaf Pile",
+   "category": "ground",
+   "theme": "undergrowth",
+   "biome": "forest",
+   "blurb": "Pile of autumn leaves; walkable, bush flag.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": true,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "bush"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a flat pile of orange and yellow autumn leaves, seen mostly from above, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "forest_shrine",
+   "name": "Forest Shrine",
+   "category": "building",
+   "theme": "landmarks",
+   "biome": "forest",
+   "blurb": "Small mossy stone shrine; front is a counter (offerings).",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": true,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "counter",
+     "counter"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a small ancient mossy stone shrine with a tiny roof and a glowing candle niche, on a stone base, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "wooden_bridge_h",
+   "name": "Wooden Bridge \u2014 Horizontal",
+   "category": "building",
+   "theme": "landmarks",
+   "biome": "forest",
+   "blurb": "Plank bridge segment, walkable in all directions (paint over water/ravines).",
+   "footprint": {
+    "w": 3,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "pass",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "pass",
+     "pass",
+     "pass"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide flat wooden plank bridge segment with rope handrails at the edges, seen from directly above, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "wooden_bridge_v",
+   "name": "Wooden Bridge \u2014 Vertical",
+   "category": "building",
+   "theme": "landmarks",
+   "biome": "forest",
+   "blurb": "Vertical plank bridge segment, walkable.",
+   "footprint": {
+    "w": 1,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "pass",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "pass"
+    ],
+    [
+     "pass"
+    ],
+    [
+     "pass"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall narrow flat wooden plank bridge segment with rope handrails at the edges, seen from directly above, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "campfire",
+   "name": "Campfire",
+   "category": "prop",
+   "theme": "campsite",
+   "biome": "forest",
+   "blurb": "Lit campfire in a stone ring.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a small lit campfire with orange flames inside a ring of grey stones, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "campfire_site",
+   "name": "Campfire Site",
+   "category": "prop",
+   "theme": "campsite",
+   "biome": "forest",
+   "blurb": "Campfire with log seats around it.",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block",
+     "block"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a campfire in a stone ring surrounded by log seats and a small cooking pot, seen from a slight top-down view, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "tent_canvas",
+   "name": "Tent",
+   "category": "building",
+   "theme": "campsite",
+   "biome": "forest",
+   "blurb": "Canvas camping tent.",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide canvas camping tent in warm orange with a dark triangular entrance, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "vine_pole",
+   "name": "Vine Pole",
+   "category": "decor",
+   "theme": "woodland",
+   "biome": "forest",
+   "blurb": "Wooden pole wrapped in vines.",
+   "footprint": {
+    "w": 1,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star"
+    ],
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall narrow wooden pole completely wrapped in green vines and small leaves, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "bee_hive",
+   "name": "Bee Hive",
+   "category": "decor",
+   "theme": "woodland",
+   "biome": "forest",
+   "blurb": "Hanging bee hive; star tile (hangs from branches).",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "star",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a golden bee hive hanging from a short branch stub, with two tiny bees, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "birdhouse_pole",
+   "name": "Birdhouse Pole",
+   "category": "prop",
+   "theme": "woodland",
+   "biome": "forest",
+   "blurb": "Pole with a small birdhouse.",
+   "footprint": {
+    "w": 1,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star"
+    ],
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall narrow wooden pole with a small colorful birdhouse at the top, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "spider_web",
+   "name": "Spider Web",
+   "category": "decor",
+   "theme": "woodland",
+   "biome": "forest",
+   "blurb": "Corner spider web; star tile overlay.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "star",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a delicate white spider web stretched across a corner, with a tiny spider, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "trail_stones",
+   "name": "Trail Stones",
+   "category": "ground",
+   "theme": "paths",
+   "biome": "forest",
+   "blurb": "Flat stepping stones; walkable ground detail.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "pass",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "pass",
+     "pass"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low row of flat grey stepping stones, seen from directly above, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "dirt_patch",
+   "name": "Dirt Patch",
+   "category": "ground",
+   "theme": "paths",
+   "biome": "forest",
+   "blurb": "Bare dirt patch; walkable ground detail.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "pass",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "pass"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a flat patch of bare brown dirt with small pebbles, seen from directly above, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "rock_formation",
+   "name": "Rock Formation",
+   "category": "vegetation",
+   "theme": "rocks",
+   "biome": "mountain",
+   "blurb": "Tall craggy rock formation.",
+   "footprint": {
+    "w": 2,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall craggy grey rock formation with sharp angular boulders stacked together, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "rock_spire",
+   "name": "Rock Spire",
+   "category": "prop",
+   "theme": "rocks",
+   "biome": "mountain",
+   "blurb": "Thin towering rock spire.",
+   "footprint": {
+    "w": 1,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star"
+    ],
+    [
+     "star"
+    ],
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a very tall thin grey rock spire with a pointed top, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "cliff_overhang",
+   "name": "Cliff Overhang",
+   "category": "decor",
+   "theme": "rocks",
+   "biome": "mountain",
+   "blurb": "Rocky overhang lip; star tile that shades a path below.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "star",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low rocky cliff overhang lip of grey stone, seen from the front, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "cliff_face",
+   "name": "Cliff Face Piece",
+   "category": "building",
+   "theme": "rocks",
+   "biome": "mountain",
+   "blurb": "Sheer cliff face section for building rock walls.",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a sheer grey cliff rock face section with cracks and a few ledges, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "snow_rock_large",
+   "name": "Rock \u2014 Snowy Large",
+   "category": "prop",
+   "theme": "snow",
+   "biome": "mountain",
+   "blurb": "Large boulder with a snow cap.",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a large grey boulder with a thick white snow cap on top, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "snow_boulder",
+   "name": "Boulder \u2014 Snowy",
+   "category": "prop",
+   "theme": "snow",
+   "biome": "mountain",
+   "blurb": "Snow-dusted boulder pair.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low pair of grey boulders dusted with white snow, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "ice_rock",
+   "name": "Ice Rock",
+   "category": "prop",
+   "theme": "snow",
+   "biome": "mountain",
+   "blurb": "Boulder with hanging icicles.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low grey boulder with shiny blue icicles hanging from its ledges, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "snow_drift",
+   "name": "Snow Drift",
+   "category": "ground",
+   "theme": "snow",
+   "biome": "mountain",
+   "blurb": "Flat snow drift; walkable ground detail.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "pass",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "pass",
+     "pass"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low flat drift of white snow with soft blue shading, seen from directly above, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "pine_snow",
+   "name": "Tree \u2014 Snowy Pine",
+   "category": "vegetation",
+   "theme": "trees",
+   "biome": "mountain",
+   "blurb": "Pine variant with snow-laden branches (mountain signature tree).",
+   "footprint": {
+    "w": 2,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall pine tree with snow piled on its layered dark green branches and a straight brown trunk, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "tree_dead",
+   "name": "Tree \u2014 Dead",
+   "category": "vegetation",
+   "theme": "trees",
+   "biome": "mountain",
+   "blurb": "Bare dead tree, eerie silhouette.",
+   "footprint": {
+    "w": 2,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall bare dead tree with twisted leafless grey branches and a gnarled trunk, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "snow_tree_small",
+   "name": "Tree \u2014 Snowy Sapling Pine",
+   "category": "vegetation",
+   "theme": "trees",
+   "biome": "mountain",
+   "blurb": "Small snowy pine.",
+   "footprint": {
+    "w": 1,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star"
+    ],
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall narrow small pine tree dusted with snow, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "mountain_shrine",
+   "name": "Mountain Shrine",
+   "category": "building",
+   "theme": "landmarks",
+   "biome": "mountain",
+   "blurb": "Stone shrine with prayer flags; front is a counter.",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": true,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "counter",
+     "counter"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a small stone mountain shrine with a tiny roof and colorful prayer flags strung beside it, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "torii_gate",
+   "name": "Mountain Gate",
+   "category": "building",
+   "theme": "landmarks",
+   "biome": "mountain",
+   "blurb": "Vermilion torii-style gate; walk through the middle cell.",
+   "footprint": {
+    "w": 3,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "pass",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide vermilion red torii-style gate with two pillars and two crossbeams, a mountain shrine entrance, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "rope_bridge_h",
+   "name": "Rope Bridge \u2014 Horizontal",
+   "category": "building",
+   "theme": "landmarks",
+   "biome": "mountain",
+   "blurb": "Swaying rope bridge segment, walkable.",
+   "footprint": {
+    "w": 3,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "pass",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "pass",
+     "pass",
+     "pass"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide flat rope bridge segment with wooden planks and thick rope rails, seen from directly above, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "scaffolding",
+   "name": "Scaffolding",
+   "category": "building",
+   "theme": "mine",
+   "biome": "mountain",
+   "blurb": "Wooden mining scaffolding platform.",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wooden scaffolding structure with crossed beams and a small platform, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "mine_entrance",
+   "name": "Mine Entrance",
+   "category": "building",
+   "theme": "mine",
+   "biome": "mountain",
+   "blurb": "Mine entrance framed in timber with a dark tunnel mouth.",
+   "footprint": {
+    "w": 3,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide mine entrance in a rocky face framed with heavy wooden timbers, a dark tunnel opening and a lantern hanging beside it, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "mine_cart",
+   "name": "Mine Cart",
+   "category": "prop",
+   "theme": "mine",
+   "biome": "mountain",
+   "blurb": "Mine cart full of ore on a rail piece.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low metal mine cart full of grey ore rocks sitting on a short piece of rail track, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "mine_beams",
+   "name": "Mine Support Beams",
+   "category": "building",
+   "theme": "mine",
+   "biome": "mountain",
+   "blurb": "Timber support frame for tunnel mouths.",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wooden support beam frame structure like a tunnel entrance frame, with crossed timbers, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "stone_lantern",
+   "name": "Stone Lantern",
+   "category": "prop",
+   "theme": "landmarks",
+   "biome": "mountain",
+   "blurb": "Carved stone lantern (unlit by day, glow at night via events).",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a carved grey stone garden lantern with a small warm glowing window, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "prayer_flags",
+   "name": "Prayer Flags",
+   "category": "decor",
+   "theme": "landmarks",
+   "biome": "mountain",
+   "blurb": "Strung prayer flags; star tile overhead decor.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "star",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide string of small colorful triangular prayer flags strung between two short poles, hanging in a gentle curve, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "warning_sign",
+   "name": "Warning Sign",
+   "category": "signage",
+   "theme": "mine",
+   "biome": "mountain",
+   "blurb": "Weathered warning signpost, completely blank (text in-engine).",
+   "footprint": {
+    "w": 1,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star"
+    ],
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a tall narrow weathered wooden signpost with one completely blank plank board, slightly tilted, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "hot_spring",
+   "name": "Hot Spring Basin",
+   "category": "building",
+   "theme": "landmarks",
+   "biome": "mountain",
+   "blurb": "Steaming rock-rimmed hot spring basin.",
+   "footprint": {
+    "w": 3,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide rock-rimmed hot spring basin of steaming pale blue water, seen from the front with a slight top-down view, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "gravel_patch",
+   "name": "Gravel Patch",
+   "category": "ground",
+   "theme": "paths",
+   "biome": "mountain",
+   "blurb": "Gravel patch; walkable ground detail.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "pass",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "pass",
+     "pass"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low flat patch of grey gravel and small stones, seen from directly above, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "scree_slope",
+   "name": "Scree Slope",
+   "category": "ground",
+   "theme": "paths",
+   "biome": "mountain",
+   "blurb": "Loose scree stones; walkable ground detail.",
+   "footprint": {
+    "w": 2,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "pass",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "pass",
+     "pass"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wide low flat slope of loose grey scree stones, seen from directly above, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "mountain_flowers",
+   "name": "Mountain Flowers",
+   "category": "vegetation",
+   "theme": "trees",
+   "biome": "mountain",
+   "blurb": "Alpine flower patch; walkable, bush flag.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": true,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "bush"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a flat patch of small purple and white alpine flowers among rocks and grass, seen mostly from above, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "eagle_pole",
+   "name": "Lookout Pole",
+   "category": "prop",
+   "theme": "landmarks",
+   "biome": "mountain",
+   "blurb": "Tall lookout pole with a nest platform.",
+   "footprint": {
+    "w": 1,
+    "h": 3
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star"
+    ],
+    [
+     "star"
+    ],
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a very tall thin wooden lookout pole with a small round nest platform at the top, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "cairn",
+   "name": "Cairn",
+   "category": "prop",
+   "theme": "paths",
+   "biome": "mountain",
+   "blurb": "Trail cairn of stacked stones.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a small trail cairn of carefully stacked flat grey stones, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "wooden_stairs",
+   "name": "Wooden Stairs",
+   "category": "building",
+   "theme": "paths",
+   "biome": "mountain",
+   "blurb": "Wooden mountain stair segment; walkable in all directions.",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "pass",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "pass",
+     "pass"
+    ],
+    [
+     "pass",
+     "pass"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wooden stairway segment of steps climbing upward, seen from a slight top-down front view, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "lookout_platform",
+   "name": "Lookout Platform",
+   "category": "building",
+   "theme": "landmarks",
+   "biome": "mountain",
+   "blurb": "Wooden lookout platform on posts.",
+   "footprint": {
+    "w": 2,
+    "h": 2
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "mixed",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "star",
+     "star"
+    ],
+    [
+     "block",
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a wooden lookout viewing platform on tall posts with a railing, seen from the front, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "crystal_cluster",
+   "name": "Crystal Cluster",
+   "category": "prop",
+   "theme": "mine",
+   "biome": "mountain",
+   "blurb": "Glowing crystal cluster for cave mouths.",
+   "footprint": {
+    "w": 1,
+    "h": 1
+   },
+   "anchor": "bottom",
+   "attributes": {
+    "passage": "block",
+    "counter": false,
+    "bush": false,
+    "ladder": false,
+    "damageFloor": false,
+    "terrainTag": 0
+   },
+   "cellLayout": [
+    [
+     "block"
+    ]
+   ],
+   "style": "ganjuko-pixel-v1",
+   "prompt": "Polished pixel-art RPG tileset object, a cluster of glowing purple and blue crystals growing from a grey rock base, front view with slight top-down perspective matching classic 2D RPG tilesets, vibrant colors, clean dark outline, soft drop shadow at the base, fully transparent background, single object only, centered, no text, no words, no scenery.",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "npc_elder_storyteller",
+   "kind": "character",
+   "name": "NPC — Elder Storyteller",
+   "biome": "characters",
+   "category": "character",
+   "role": "elder storyteller / quest giver",
+   "theme": "village",
+   "tags": ["elder", "female", "storyteller", "quest-giver"],
+   "sheet": {"file": "characters/assets/$NPC_ElderStoryteller.png", "format": "RMMZ single-character sheet 144x192, 3x4 frames of 48x48 (down/left/right/up)"},
+   "style": "ganjuko-pixel-v1",
+   "prompt": "an elderly storyteller woman with white hair in a bun and round spectacles, a warm patterned shawl over a long dress, holding a closed storybook (+ shared ganjuko-walkgrid-v1 scaffold)",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "npc_kid_cap",
+   "kind": "character",
+   "name": "NPC — Kid with Cap",
+   "biome": "characters",
+   "category": "character",
+   "role": "town kid",
+   "theme": "town",
+   "tags": ["kid", "male", "energetic"],
+   "sheet": {"file": "characters/assets/$NPC_KidCap.png", "format": "RMMZ single-character sheet 144x192, 3x4 frames of 48x48 (down/left/right/up)"},
+   "style": "ganjuko-pixel-v1",
+   "prompt": "a small cheerful kid boy with a backwards red cap, a yellow striped t-shirt, blue shorts, sneakers (+ shared ganjuko-walkgrid-v1 scaffold)",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "npc_fisher",
+   "kind": "character",
+   "name": "NPC — Fisher",
+   "biome": "characters",
+   "category": "character",
+   "role": "fisherman",
+   "theme": "coast",
+   "tags": ["male", "worker", "coast"],
+   "sheet": {"file": "characters/assets/$NPC_Fisher.png", "format": "RMMZ single-character sheet 144x192, 3x4 frames of 48x48 (down/left/right/up)"},
+   "style": "ganjuko-pixel-v1",
+   "prompt": "a weathered fisherman man with a bucket hat, an orange fishing vest over a flannel shirt, dark waders and boots (+ shared ganjuko-walkgrid-v1 scaffold)",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "npc_hiker",
+   "kind": "character",
+   "name": "NPC — Hiker",
+   "biome": "characters",
+   "category": "character",
+   "role": "hiker / route traveler",
+   "theme": "mountain",
+   "tags": ["female", "traveler", "outdoors"],
+   "sheet": {"file": "characters/assets/$NPC_Hiker.png", "format": "RMMZ single-character sheet 144x192, 3x4 frames of 48x48 (down/left/right/up)"},
+   "style": "ganjuko-pixel-v1",
+   "prompt": "a hiker woman with a wide sun hat, a large hiking backpack, a khaki shirt and shorts, walking boots, a neckerchief (+ shared ganjuko-walkgrid-v1 scaffold)",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "npc_scientist",
+   "kind": "character",
+   "name": "NPC — Scientist",
+   "biome": "characters",
+   "category": "character",
+   "role": "researcher",
+   "theme": "lab",
+   "tags": ["scientist", "lab", "researcher"],
+   "sheet": {"file": "characters/assets/$NPC_Scientist.png", "format": "RMMZ single-character sheet 144x192, 3x4 frames of 48x48 (down/left/right/up)"},
+   "style": "ganjuko-pixel-v1",
+   "prompt": "a young scientist with messy black hair and lab goggles on the forehead, a white lab coat over a hoodie, dark trousers (+ shared ganjuko-walkgrid-v1 scaffold)",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "npc_shrine_keeper",
+   "kind": "character",
+   "name": "NPC — Shrine Keeper",
+   "biome": "characters",
+   "category": "character",
+   "role": "shrine attendant",
+   "theme": "shrine",
+   "tags": ["female", "shrine", "traditional"],
+   "sheet": {"file": "characters/assets/$NPC_ShrineKeeper.png", "format": "RMMZ single-character sheet 144x192, 3x4 frames of 48x48 (down/left/right/up)"},
+   "style": "ganjuko-pixel-v1",
+   "prompt": "a serene shrine keeper woman with long black hair tied with a white ribbon, a white top and a long vermilion-red skirt, traditional shrine attendant outfit (+ shared ganjuko-walkgrid-v1 scaffold)",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "npc_sailor",
+   "kind": "character",
+   "name": "NPC — Sailor",
+   "biome": "characters",
+   "category": "character",
+   "role": "sailor / port crew",
+   "theme": "coast",
+   "tags": ["male", "port", "crew"],
+   "sheet": {"file": "characters/assets/$NPC_Sailor.png", "format": "RMMZ single-character sheet 144x192, 3x4 frames of 48x48 (down/left/right/up)"},
+   "style": "ganjuko-pixel-v1",
+   "prompt": "a sailor man with a white sailor cap, a navy-and-white striped shirt, white trousers, a neckerchief (+ shared ganjuko-walkgrid-v1 scaffold)",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "npc_miner",
+   "kind": "character",
+   "name": "NPC — Miner",
+   "biome": "characters",
+   "category": "character",
+   "role": "miner",
+   "theme": "cave",
+   "tags": ["male", "worker", "cave"],
+   "sheet": {"file": "characters/assets/$NPC_Miner.png", "format": "RMMZ single-character sheet 144x192, 3x4 frames of 48x48 (down/left/right/up)"},
+   "style": "ganjuko-pixel-v1",
+   "prompt": "a sturdy miner man with a yellow hard hat with a small lamp, a dusty orange work shirt, heavy boots, thick gloves (+ shared ganjuko-walkgrid-v1 scaffold)",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "npc_artist",
+   "kind": "character",
+   "name": "NPC — Artist",
+   "biome": "characters",
+   "category": "character",
+   "role": "street artist",
+   "theme": "city",
+   "tags": ["female", "creative", "city"],
+   "sheet": {"file": "characters/assets/$NPC_Artist.png", "format": "RMMZ single-character sheet 144x192, 3x4 frames of 48x48 (down/left/right/up)"},
+   "style": "ganjuko-pixel-v1",
+   "prompt": "an artist woman with a dark beret, a paint-splattered apron over casual clothes, a scarf (+ shared ganjuko-walkgrid-v1 scaffold)",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  },
+  {
+   "id": "npc_traveling_merchant",
+   "kind": "character",
+   "name": "NPC — Traveling Merchant",
+   "biome": "characters",
+   "category": "character",
+   "role": "roaming merchant / shop event",
+   "theme": "route",
+   "tags": ["male", "shop", "traveler"],
+   "sheet": {"file": "characters/assets/$NPC_TravelingMerchant.png", "format": "RMMZ single-character sheet 144x192, 3x4 frames of 48x48 (down/left/right/up)"},
+   "style": "ganjuko-pixel-v1",
+   "prompt": "a traveling merchant man with a huge backpack with a rolled bedroll on top, a layered travel cloak in warm browns, a wide hat, many pouches on his belt (+ shared ganjuko-walkgrid-v1 scaffold)",
+   "model": "gpt-image-1-mini",
+   "generated": "2026-11-01",
+   "license": "Original generated art, (c) Rene Turcios"
+  }
+ ]
+}

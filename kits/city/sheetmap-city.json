@@ -1,0 +1,723 @@
+{
+ "tree_round": {
+  "sheet": "GanjukoCity_B",
+  "col": 0,
+  "row": 9,
+  "w": 2,
+  "h": 3,
+  "tileIds": [
+   2192,
+   2193,
+   2208,
+   2209,
+   2224,
+   2225
+  ]
+ },
+ "tree_pine": {
+  "sheet": "GanjukoCity_B",
+  "col": 13,
+  "row": 6,
+  "w": 2,
+  "h": 3,
+  "tileIds": [
+   2157,
+   2158,
+   2173,
+   2174,
+   2189,
+   2190
+  ]
+ },
+ "hedge": {
+  "sheet": "GanjukoCity_B",
+  "col": 11,
+  "row": 14,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2283
+  ]
+ },
+ "hedge_end": {
+  "sheet": "GanjukoCity_B",
+  "col": 12,
+  "row": 14,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2284
+  ]
+ },
+ "potted_plant": {
+  "sheet": "GanjukoCity_B",
+  "col": 0,
+  "row": 15,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2288
+  ]
+ },
+ "crates_barrels": {
+  "sheet": "GanjukoCity_B",
+  "col": 11,
+  "row": 12,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2251,
+   2252
+  ]
+ },
+ "barrel": {
+  "sheet": "GanjukoCity_B",
+  "col": 15,
+  "row": 12,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2255
+  ]
+ },
+ "rock_small": {
+  "sheet": "GanjukoCity_B",
+  "col": 2,
+  "row": 15,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2290
+  ]
+ },
+ "rock_cluster": {
+  "sheet": "GanjukoCity_B",
+  "col": 4,
+  "row": 14,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2276,
+   2277
+  ]
+ },
+ "grass_tuft": {
+  "sheet": "GanjukoCity_B",
+  "col": 9,
+  "row": 14,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2281
+  ]
+ },
+ "wildflowers": {
+  "sheet": "GanjukoCity_B",
+  "col": 4,
+  "row": 15,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2292
+  ]
+ },
+ "house_red_roof": {
+  "sheet": "GanjukoCity_B",
+  "col": 6,
+  "row": 3,
+  "w": 3,
+  "h": 3,
+  "tileIds": [
+   2102,
+   2103,
+   2104,
+   2118,
+   2119,
+   2120,
+   2134,
+   2135,
+   2136
+  ]
+ },
+ "house_blue_roof": {
+  "sheet": "GanjukoCity_B",
+  "col": 0,
+  "row": 3,
+  "w": 3,
+  "h": 3,
+  "tileIds": [
+   2096,
+   2097,
+   2098,
+   2112,
+   2113,
+   2114,
+   2128,
+   2129,
+   2130
+  ]
+ },
+ "cottage_green_roof": {
+  "sheet": "GanjukoCity_B",
+  "col": 11,
+  "row": 6,
+  "w": 2,
+  "h": 3,
+  "tileIds": [
+   2155,
+   2156,
+   2171,
+   2172,
+   2187,
+   2188
+  ]
+ },
+ "shop_front": {
+  "sheet": "GanjukoCity_B",
+  "col": 12,
+  "row": 3,
+  "w": 3,
+  "h": 3,
+  "tileIds": [
+   2108,
+   2109,
+   2110,
+   2124,
+   2125,
+   2126,
+   2140,
+   2141,
+   2142
+  ]
+ },
+ "townhouse_brick": {
+  "sheet": "GanjukoCity_B",
+  "col": 6,
+  "row": 6,
+  "w": 3,
+  "h": 3,
+  "tileIds": [
+   2150,
+   2151,
+   2152,
+   2166,
+   2167,
+   2168,
+   2182,
+   2183,
+   2184
+  ]
+ },
+ "fountain": {
+  "sheet": "GanjukoCity_B",
+  "col": 12,
+  "row": 0,
+  "w": 3,
+  "h": 3,
+  "tileIds": [
+   2060,
+   2061,
+   2062,
+   2076,
+   2077,
+   2078,
+   2092,
+   2093,
+   2094
+  ]
+ },
+ "statue_hero": {
+  "sheet": "GanjukoCity_B",
+  "col": 12,
+  "row": 9,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2204,
+   2205,
+   2220,
+   2221
+  ]
+ },
+ "well": {
+  "sheet": "GanjukoCity_B",
+  "col": 14,
+  "row": 9,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2206,
+   2207,
+   2222,
+   2223
+  ]
+ },
+ "market_stall": {
+  "sheet": "GanjukoCity_B",
+  "col": 6,
+  "row": 9,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2198,
+   2199,
+   2214,
+   2215
+  ]
+ },
+ "city_gate_arch": {
+  "sheet": "GanjukoCity_B",
+  "col": 9,
+  "row": 0,
+  "w": 3,
+  "h": 3,
+  "tileIds": [
+   2057,
+   2058,
+   2059,
+   2073,
+   2074,
+   2075,
+   2089,
+   2090,
+   2091
+  ]
+ },
+ "flower_planter": {
+  "sheet": "GanjukoCity_B",
+  "col": 0,
+  "row": 14,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2272,
+   2273
+  ]
+ },
+ "flower_bed": {
+  "sheet": "GanjukoCity_B",
+  "col": 13,
+  "row": 12,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2253,
+   2254
+  ]
+ },
+ "street_lamp": {
+  "sheet": "GanjukoCity_B",
+  "col": 1,
+  "row": 12,
+  "w": 1,
+  "h": 2,
+  "tileIds": [
+   2241,
+   2257
+  ]
+ },
+ "bench": {
+  "sheet": "GanjukoCity_B",
+  "col": 7,
+  "row": 12,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2247,
+   2248
+  ]
+ },
+ "mailbox": {
+  "sheet": "GanjukoCity_B",
+  "col": 15,
+  "row": 6,
+  "w": 1,
+  "h": 2,
+  "tileIds": [
+   2159,
+   2175
+  ]
+ },
+ "banner_pole": {
+  "sheet": "GanjukoCity_B",
+  "col": 15,
+  "row": 0,
+  "w": 1,
+  "h": 3,
+  "tileIds": [
+   2063,
+   2079,
+   2095
+  ]
+ },
+ "signpost": {
+  "sheet": "GanjukoCity_B",
+  "col": 0,
+  "row": 12,
+  "w": 1,
+  "h": 2,
+  "tileIds": [
+   2240,
+   2256
+  ]
+ },
+ "hanging_sign": {
+  "sheet": "GanjukoCity_B",
+  "col": 10,
+  "row": 14,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2282
+  ]
+ },
+ "awning_strip": {
+  "sheet": "GanjukoCity_B",
+  "col": 3,
+  "row": 12,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2243,
+   2244
+  ]
+ },
+ "balcony": {
+  "sheet": "GanjukoCity_B",
+  "col": 5,
+  "row": 12,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2245,
+   2246
+  ]
+ },
+ "window_box": {
+  "sheet": "GanjukoCity_B",
+  "col": 5,
+  "row": 15,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2293
+  ]
+ },
+ "bicycle_rack": {
+  "sheet": "GanjukoCity_B",
+  "col": 9,
+  "row": 12,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2249,
+   2250
+  ]
+ },
+ "bollard": {
+  "sheet": "GanjukoCity_B",
+  "col": 6,
+  "row": 14,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2278
+  ]
+ },
+ "manhole": {
+  "sheet": "GanjukoCity_B",
+  "col": 14,
+  "row": 14,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2286
+  ]
+ },
+ "puddle": {
+  "sheet": "GanjukoCity_B",
+  "col": 1,
+  "row": 15,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2289
+  ]
+ },
+ "house_pink_roof": {
+  "sheet": "GanjukoCity_B",
+  "col": 3,
+  "row": 3,
+  "w": 3,
+  "h": 3,
+  "tileIds": [
+   2099,
+   2100,
+   2101,
+   2115,
+   2116,
+   2117,
+   2131,
+   2132,
+   2133
+  ]
+ },
+ "apartment_block": {
+  "sheet": "GanjukoCity_B",
+  "col": 0,
+  "row": 0,
+  "w": 3,
+  "h": 3,
+  "tileIds": [
+   2048,
+   2049,
+   2050,
+   2064,
+   2065,
+   2066,
+   2080,
+   2081,
+   2082
+  ]
+ },
+ "cafe_front": {
+  "sheet": "GanjukoCity_B",
+  "col": 6,
+  "row": 0,
+  "w": 3,
+  "h": 3,
+  "tileIds": [
+   2054,
+   2055,
+   2056,
+   2070,
+   2071,
+   2072,
+   2086,
+   2087,
+   2088
+  ]
+ },
+ "bakery_front": {
+  "sheet": "GanjukoCity_B",
+  "col": 3,
+  "row": 0,
+  "w": 3,
+  "h": 3,
+  "tileIds": [
+   2051,
+   2052,
+   2053,
+   2067,
+   2068,
+   2069,
+   2083,
+   2084,
+   2085
+  ]
+ },
+ "inn_front": {
+  "sheet": "GanjukoCity_B",
+  "col": 9,
+  "row": 3,
+  "w": 3,
+  "h": 3,
+  "tileIds": [
+   2105,
+   2106,
+   2107,
+   2121,
+   2122,
+   2123,
+   2137,
+   2138,
+   2139
+  ]
+ },
+ "storefront_wide": {
+  "sheet": "GanjukoCity_B",
+  "col": 0,
+  "row": 6,
+  "w": 3,
+  "h": 3,
+  "tileIds": [
+   2144,
+   2145,
+   2146,
+   2160,
+   2161,
+   2162,
+   2176,
+   2177,
+   2178
+  ]
+ },
+ "town_hall": {
+  "sheet": "GanjukoCity_B",
+  "col": 3,
+  "row": 6,
+  "w": 3,
+  "h": 3,
+  "tileIds": [
+   2147,
+   2148,
+   2149,
+   2163,
+   2164,
+   2165,
+   2179,
+   2180,
+   2181
+  ]
+ },
+ "clock_tower": {
+  "sheet": "GanjukoCity_B",
+  "col": 9,
+  "row": 6,
+  "w": 2,
+  "h": 3,
+  "tileIds": [
+   2153,
+   2154,
+   2169,
+   2170,
+   2185,
+   2186
+  ]
+ },
+ "notice_board": {
+  "sheet": "GanjukoCity_B",
+  "col": 8,
+  "row": 9,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2200,
+   2201,
+   2216,
+   2217
+  ]
+ },
+ "park_gate": {
+  "sheet": "GanjukoCity_B",
+  "col": 10,
+  "row": 9,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2202,
+   2203,
+   2218,
+   2219
+  ]
+ },
+ "clothesline": {
+  "sheet": "GanjukoCity_B",
+  "col": 2,
+  "row": 9,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2194,
+   2195,
+   2210,
+   2211
+  ]
+ },
+ "garden_fence": {
+  "sheet": "GanjukoCity_B",
+  "col": 2,
+  "row": 14,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2274,
+   2275
+  ]
+ },
+ "dog_house": {
+  "sheet": "GanjukoCity_B",
+  "col": 8,
+  "row": 14,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2280
+  ]
+ },
+ "chimney": {
+  "sheet": "GanjukoCity_B",
+  "col": 7,
+  "row": 14,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2279
+  ]
+ },
+ "menu_board": {
+  "sheet": "GanjukoCity_B",
+  "col": 15,
+  "row": 14,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2287
+  ]
+ },
+ "hydrant": {
+  "sheet": "GanjukoCity_B",
+  "col": 13,
+  "row": 14,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2285
+  ]
+ },
+ "trash_bin": {
+  "sheet": "GanjukoCity_B",
+  "col": 3,
+  "row": 15,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2291
+  ]
+ },
+ "lamp_double": {
+  "sheet": "GanjukoCity_B",
+  "col": 15,
+  "row": 3,
+  "w": 1,
+  "h": 2,
+  "tileIds": [
+   2111,
+   2127
+  ]
+ },
+ "street_sign_blank": {
+  "sheet": "GanjukoCity_B",
+  "col": 2,
+  "row": 12,
+  "w": 1,
+  "h": 2,
+  "tileIds": [
+   2242,
+   2258
+  ]
+ },
+ "flower_arch": {
+  "sheet": "GanjukoCity_B",
+  "col": 4,
+  "row": 9,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2196,
+   2197,
+   2212,
+   2213
+  ]
+ }
+}

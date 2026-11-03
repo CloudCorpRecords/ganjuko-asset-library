@@ -1,0 +1,497 @@
+{
+ "tree_round": {
+  "sheet": "GanjukoMountain_B",
+  "col": 14,
+  "row": 0,
+  "w": 2,
+  "h": 3,
+  "tileIds": [
+   2062,
+   2063,
+   2078,
+   2079,
+   2094,
+   2095
+  ]
+ },
+ "tree_pine": {
+  "sheet": "GanjukoMountain_B",
+  "col": 12,
+  "row": 0,
+  "w": 2,
+  "h": 3,
+  "tileIds": [
+   2060,
+   2061,
+   2076,
+   2077,
+   2092,
+   2093
+  ]
+ },
+ "hedge": {
+  "sheet": "GanjukoMountain_B",
+  "col": 0,
+  "row": 9,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2192
+  ]
+ },
+ "hedge_end": {
+  "sheet": "GanjukoMountain_B",
+  "col": 1,
+  "row": 9,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2193
+  ]
+ },
+ "potted_plant": {
+  "sheet": "GanjukoMountain_B",
+  "col": 3,
+  "row": 9,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2195
+  ]
+ },
+ "crates_barrels": {
+  "sheet": "GanjukoMountain_B",
+  "col": 10,
+  "row": 6,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2154,
+   2155
+  ]
+ },
+ "barrel": {
+  "sheet": "GanjukoMountain_B",
+  "col": 12,
+  "row": 8,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2188
+  ]
+ },
+ "rock_small": {
+  "sheet": "GanjukoMountain_B",
+  "col": 4,
+  "row": 9,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2196
+  ]
+ },
+ "rock_cluster": {
+  "sheet": "GanjukoMountain_B",
+  "col": 4,
+  "row": 8,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2180,
+   2181
+  ]
+ },
+ "grass_tuft": {
+  "sheet": "GanjukoMountain_B",
+  "col": 15,
+  "row": 8,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2191
+  ]
+ },
+ "wildflowers": {
+  "sheet": "GanjukoMountain_B",
+  "col": 6,
+  "row": 9,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2198
+  ]
+ },
+ "rock_formation": {
+  "sheet": "GanjukoMountain_B",
+  "col": 8,
+  "row": 0,
+  "w": 2,
+  "h": 3,
+  "tileIds": [
+   2056,
+   2057,
+   2072,
+   2073,
+   2088,
+   2089
+  ]
+ },
+ "rock_spire": {
+  "sheet": "GanjukoMountain_B",
+  "col": 1,
+  "row": 3,
+  "w": 1,
+  "h": 3,
+  "tileIds": [
+   2097,
+   2113,
+   2129
+  ]
+ },
+ "cliff_overhang": {
+  "sheet": "GanjukoMountain_B",
+  "col": 8,
+  "row": 6,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2152,
+   2153
+  ]
+ },
+ "cliff_face": {
+  "sheet": "GanjukoMountain_B",
+  "col": 5,
+  "row": 3,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2101,
+   2102,
+   2117,
+   2118
+  ]
+ },
+ "snow_rock_large": {
+  "sheet": "GanjukoMountain_B",
+  "col": 0,
+  "row": 6,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2144,
+   2145,
+   2160,
+   2161
+  ]
+ },
+ "snow_boulder": {
+  "sheet": "GanjukoMountain_B",
+  "col": 8,
+  "row": 8,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2184,
+   2185
+  ]
+ },
+ "ice_rock": {
+  "sheet": "GanjukoMountain_B",
+  "col": 14,
+  "row": 6,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2158,
+   2159
+  ]
+ },
+ "snow_drift": {
+  "sheet": "GanjukoMountain_B",
+  "col": 10,
+  "row": 8,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2186,
+   2187
+  ]
+ },
+ "pine_snow": {
+  "sheet": "GanjukoMountain_B",
+  "col": 6,
+  "row": 0,
+  "w": 2,
+  "h": 3,
+  "tileIds": [
+   2054,
+   2055,
+   2070,
+   2071,
+   2086,
+   2087
+  ]
+ },
+ "tree_dead": {
+  "sheet": "GanjukoMountain_B",
+  "col": 10,
+  "row": 0,
+  "w": 2,
+  "h": 3,
+  "tileIds": [
+   2058,
+   2059,
+   2074,
+   2075,
+   2090,
+   2091
+  ]
+ },
+ "snow_tree_small": {
+  "sheet": "GanjukoMountain_B",
+  "col": 15,
+  "row": 3,
+  "w": 1,
+  "h": 2,
+  "tileIds": [
+   2111,
+   2127
+  ]
+ },
+ "mountain_shrine": {
+  "sheet": "GanjukoMountain_B",
+  "col": 11,
+  "row": 3,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2107,
+   2108,
+   2123,
+   2124
+  ]
+ },
+ "torii_gate": {
+  "sheet": "GanjukoMountain_B",
+  "col": 3,
+  "row": 0,
+  "w": 3,
+  "h": 3,
+  "tileIds": [
+   2051,
+   2052,
+   2053,
+   2067,
+   2068,
+   2069,
+   2083,
+   2084,
+   2085
+  ]
+ },
+ "rope_bridge_h": {
+  "sheet": "GanjukoMountain_B",
+  "col": 5,
+  "row": 6,
+  "w": 3,
+  "h": 1,
+  "tileIds": [
+   2149,
+   2150,
+   2151
+  ]
+ },
+ "scaffolding": {
+  "sheet": "GanjukoMountain_B",
+  "col": 13,
+  "row": 3,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2109,
+   2110,
+   2125,
+   2126
+  ]
+ },
+ "mine_entrance": {
+  "sheet": "GanjukoMountain_B",
+  "col": 0,
+  "row": 0,
+  "w": 3,
+  "h": 3,
+  "tileIds": [
+   2048,
+   2049,
+   2050,
+   2064,
+   2065,
+   2066,
+   2080,
+   2081,
+   2082
+  ]
+ },
+ "mine_cart": {
+  "sheet": "GanjukoMountain_B",
+  "col": 0,
+  "row": 8,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2176,
+   2177
+  ]
+ },
+ "mine_beams": {
+  "sheet": "GanjukoMountain_B",
+  "col": 9,
+  "row": 3,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2105,
+   2106,
+   2121,
+   2122
+  ]
+ },
+ "stone_lantern": {
+  "sheet": "GanjukoMountain_B",
+  "col": 5,
+  "row": 9,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2197
+  ]
+ },
+ "prayer_flags": {
+  "sheet": "GanjukoMountain_B",
+  "col": 2,
+  "row": 8,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2178,
+   2179
+  ]
+ },
+ "warning_sign": {
+  "sheet": "GanjukoMountain_B",
+  "col": 4,
+  "row": 6,
+  "w": 1,
+  "h": 2,
+  "tileIds": [
+   2148,
+   2164
+  ]
+ },
+ "hot_spring": {
+  "sheet": "GanjukoMountain_B",
+  "col": 2,
+  "row": 3,
+  "w": 3,
+  "h": 2,
+  "tileIds": [
+   2098,
+   2099,
+   2100,
+   2114,
+   2115,
+   2116
+  ]
+ },
+ "gravel_patch": {
+  "sheet": "GanjukoMountain_B",
+  "col": 12,
+  "row": 6,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2156,
+   2157
+  ]
+ },
+ "scree_slope": {
+  "sheet": "GanjukoMountain_B",
+  "col": 6,
+  "row": 8,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2182,
+   2183
+  ]
+ },
+ "mountain_flowers": {
+  "sheet": "GanjukoMountain_B",
+  "col": 2,
+  "row": 9,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2194
+  ]
+ },
+ "eagle_pole": {
+  "sheet": "GanjukoMountain_B",
+  "col": 0,
+  "row": 3,
+  "w": 1,
+  "h": 3,
+  "tileIds": [
+   2096,
+   2112,
+   2128
+  ]
+ },
+ "cairn": {
+  "sheet": "GanjukoMountain_B",
+  "col": 13,
+  "row": 8,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2189
+  ]
+ },
+ "wooden_stairs": {
+  "sheet": "GanjukoMountain_B",
+  "col": 2,
+  "row": 6,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2146,
+   2147,
+   2162,
+   2163
+  ]
+ },
+ "lookout_platform": {
+  "sheet": "GanjukoMountain_B",
+  "col": 7,
+  "row": 3,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2103,
+   2104,
+   2119,
+   2120
+  ]
+ },
+ "crystal_cluster": {
+  "sheet": "GanjukoMountain_B",
+  "col": 14,
+  "row": 8,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2190
+  ]
+ }
+}

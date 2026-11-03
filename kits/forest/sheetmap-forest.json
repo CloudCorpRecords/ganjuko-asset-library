@@ -1,0 +1,501 @@
+{
+ "tree_round": {
+  "sheet": "GanjukoForest_B",
+  "col": 11,
+  "row": 0,
+  "w": 2,
+  "h": 3,
+  "tileIds": [
+   2059,
+   2060,
+   2075,
+   2076,
+   2091,
+   2092
+  ]
+ },
+ "tree_pine": {
+  "sheet": "GanjukoForest_B",
+  "col": 9,
+  "row": 0,
+  "w": 2,
+  "h": 3,
+  "tileIds": [
+   2057,
+   2058,
+   2073,
+   2074,
+   2089,
+   2090
+  ]
+ },
+ "hedge": {
+  "sheet": "GanjukoForest_B",
+  "col": 10,
+  "row": 6,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2154
+  ]
+ },
+ "hedge_end": {
+  "sheet": "GanjukoForest_B",
+  "col": 11,
+  "row": 6,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2155
+  ]
+ },
+ "potted_plant": {
+  "sheet": "GanjukoForest_B",
+  "col": 14,
+  "row": 6,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2158
+  ]
+ },
+ "crates_barrels": {
+  "sheet": "GanjukoForest_B",
+  "col": 14,
+  "row": 3,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2110,
+   2111
+  ]
+ },
+ "barrel": {
+  "sheet": "GanjukoForest_B",
+  "col": 15,
+  "row": 5,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2143
+  ]
+ },
+ "rock_small": {
+  "sheet": "GanjukoForest_B",
+  "col": 15,
+  "row": 6,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2159
+  ]
+ },
+ "rock_cluster": {
+  "sheet": "GanjukoForest_B",
+  "col": 11,
+  "row": 5,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2139,
+   2140
+  ]
+ },
+ "grass_tuft": {
+  "sheet": "GanjukoForest_B",
+  "col": 9,
+  "row": 6,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2153
+  ]
+ },
+ "wildflowers": {
+  "sheet": "GanjukoForest_B",
+  "col": 3,
+  "row": 7,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2163
+  ]
+ },
+ "tree_cluster": {
+  "sheet": "GanjukoForest_B",
+  "col": 0,
+  "row": 0,
+  "w": 3,
+  "h": 3,
+  "tileIds": [
+   2048,
+   2049,
+   2050,
+   2064,
+   2065,
+   2066,
+   2080,
+   2081,
+   2082
+  ]
+ },
+ "tree_oak_old": {
+  "sheet": "GanjukoForest_B",
+  "col": 7,
+  "row": 0,
+  "w": 2,
+  "h": 3,
+  "tileIds": [
+   2055,
+   2056,
+   2071,
+   2072,
+   2087,
+   2088
+  ]
+ },
+ "tree_birch": {
+  "sheet": "GanjukoForest_B",
+  "col": 5,
+  "row": 0,
+  "w": 2,
+  "h": 3,
+  "tileIds": [
+   2053,
+   2054,
+   2069,
+   2070,
+   2085,
+   2086
+  ]
+ },
+ "canopy_top": {
+  "sheet": "GanjukoForest_B",
+  "col": 3,
+  "row": 3,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2099,
+   2100,
+   2115,
+   2116
+  ]
+ },
+ "canopy_arch": {
+  "sheet": "GanjukoForest_B",
+  "col": 0,
+  "row": 3,
+  "w": 3,
+  "h": 2,
+  "tileIds": [
+   2096,
+   2097,
+   2098,
+   2112,
+   2113,
+   2114
+  ]
+ },
+ "owl_tree": {
+  "sheet": "GanjukoForest_B",
+  "col": 3,
+  "row": 0,
+  "w": 2,
+  "h": 3,
+  "tileIds": [
+   2051,
+   2052,
+   2067,
+   2068,
+   2083,
+   2084
+  ]
+ },
+ "pine_young": {
+  "sheet": "GanjukoForest_B",
+  "col": 12,
+  "row": 3,
+  "w": 1,
+  "h": 2,
+  "tileIds": [
+   2108,
+   2124
+  ]
+ },
+ "sapling": {
+  "sheet": "GanjukoForest_B",
+  "col": 0,
+  "row": 7,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2160
+  ]
+ },
+ "fallen_log": {
+  "sheet": "GanjukoForest_B",
+  "col": 3,
+  "row": 5,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2131,
+   2132
+  ]
+ },
+ "log_hollow": {
+  "sheet": "GanjukoForest_B",
+  "col": 9,
+  "row": 5,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2137,
+   2138
+  ]
+ },
+ "stump": {
+  "sheet": "GanjukoForest_B",
+  "col": 2,
+  "row": 7,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2162
+  ]
+ },
+ "stump_wide": {
+  "sheet": "GanjukoForest_B",
+  "col": 13,
+  "row": 5,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2141,
+   2142
+  ]
+ },
+ "wood_pile": {
+  "sheet": "GanjukoForest_B",
+  "col": 2,
+  "row": 6,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2146,
+   2147
+  ]
+ },
+ "log_bench": {
+  "sheet": "GanjukoForest_B",
+  "col": 7,
+  "row": 5,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2135,
+   2136
+  ]
+ },
+ "mushroom_ring": {
+  "sheet": "GanjukoForest_B",
+  "col": 7,
+  "row": 3,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2103,
+   2104,
+   2119,
+   2120
+  ]
+ },
+ "mushroom_cluster": {
+  "sheet": "GanjukoForest_B",
+  "col": 13,
+  "row": 6,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2157
+  ]
+ },
+ "fern": {
+  "sheet": "GanjukoForest_B",
+  "col": 8,
+  "row": 6,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2152
+  ]
+ },
+ "fern_large": {
+  "sheet": "GanjukoForest_B",
+  "col": 5,
+  "row": 5,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2133,
+   2134
+  ]
+ },
+ "berry_bush": {
+  "sheet": "GanjukoForest_B",
+  "col": 5,
+  "row": 6,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2149
+  ]
+ },
+ "leaf_pile": {
+  "sheet": "GanjukoForest_B",
+  "col": 12,
+  "row": 6,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2156
+  ]
+ },
+ "forest_shrine": {
+  "sheet": "GanjukoForest_B",
+  "col": 5,
+  "row": 3,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2101,
+   2102,
+   2117,
+   2118
+  ]
+ },
+ "wooden_bridge_h": {
+  "sheet": "GanjukoForest_B",
+  "col": 0,
+  "row": 5,
+  "w": 3,
+  "h": 1,
+  "tileIds": [
+   2128,
+   2129,
+   2130
+  ]
+ },
+ "wooden_bridge_v": {
+  "sheet": "GanjukoForest_B",
+  "col": 13,
+  "row": 0,
+  "w": 1,
+  "h": 3,
+  "tileIds": [
+   2061,
+   2077,
+   2093
+  ]
+ },
+ "campfire": {
+  "sheet": "GanjukoForest_B",
+  "col": 6,
+  "row": 6,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2150
+  ]
+ },
+ "campfire_site": {
+  "sheet": "GanjukoForest_B",
+  "col": 14,
+  "row": 0,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2062,
+   2063,
+   2078,
+   2079
+  ]
+ },
+ "tent_canvas": {
+  "sheet": "GanjukoForest_B",
+  "col": 9,
+  "row": 3,
+  "w": 2,
+  "h": 2,
+  "tileIds": [
+   2105,
+   2106,
+   2121,
+   2122
+  ]
+ },
+ "vine_pole": {
+  "sheet": "GanjukoForest_B",
+  "col": 13,
+  "row": 3,
+  "w": 1,
+  "h": 2,
+  "tileIds": [
+   2109,
+   2125
+  ]
+ },
+ "bee_hive": {
+  "sheet": "GanjukoForest_B",
+  "col": 4,
+  "row": 6,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2148
+  ]
+ },
+ "birdhouse_pole": {
+  "sheet": "GanjukoForest_B",
+  "col": 11,
+  "row": 3,
+  "w": 1,
+  "h": 2,
+  "tileIds": [
+   2107,
+   2123
+  ]
+ },
+ "spider_web": {
+  "sheet": "GanjukoForest_B",
+  "col": 1,
+  "row": 7,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2161
+  ]
+ },
+ "trail_stones": {
+  "sheet": "GanjukoForest_B",
+  "col": 0,
+  "row": 6,
+  "w": 2,
+  "h": 1,
+  "tileIds": [
+   2144,
+   2145
+  ]
+ },
+ "dirt_patch": {
+  "sheet": "GanjukoForest_B",
+  "col": 7,
+  "row": 6,
+  "w": 1,
+  "h": 1,
+  "tileIds": [
+   2151
+  ]
+ }
+}
